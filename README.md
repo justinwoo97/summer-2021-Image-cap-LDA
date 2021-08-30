@@ -6,7 +6,18 @@ COVID-19 has disrupted urban life in many different ways. To control the spread 
 - [x] **How did life in the city changeduring different phases of the pandemic?**
 
 ## Method
-By combining computer vision and natural language processingtechniques, we develop a language model to provide a semanticdescription of an image to understand the public activities presentin the scene. This is achieved based on a **vision-language model** trained on a publicly available dataset and then fine-tuned on our labeled dataset. We use our trained model to generate semanti-cally coherent image descriptions and filter out the words thatare specific to public activities outlining the actor, action, and lo-cation (who, what, where). By modeling the word distributionsthrough topic modeling techniques such as **Latent Dirichlet Dis-tribution (LDA)**, we identify salient themes in neighborhoodsover a specific period through topic modeling and compare topicdistributions to detect changes over time. 
+By combining computer vision and natural language processing techniques, we develop a language model to provide a semantic description of an image to understand the public activities presentin the scene. This is achieved based on a **vision-language model** trained on a publicly available dataset and then fine-tuned on our labeled dataset. We use our trained model to generate semantically coherent image descriptions and filter out the words thatare specific to public activities outlining the actor, action, and lo-cation (who, what, where). By modeling the word distributions through topic modeling techniques such as **Latent Dirichlet Dis-tribution (LDA)**, we identify salient themes in neighborhoodsover a specific period through topic modeling and compare topicdistributions to detect changes over time. 
+ 
+## Data Overview
 
 ## Method Pipeline
+![img](Img_Captioning_Model.png)
+![LDA](LDA.png)
+
+## Results
+
+## Validation using External Data 
+
+## Discussion and Future Work
+
 
